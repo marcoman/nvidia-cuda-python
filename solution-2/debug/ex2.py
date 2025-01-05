@@ -12,7 +12,7 @@ def histogram(x, xmin, xmax, histogram_out):
 
     ### DEBUG FIRST THREAD
     if start == 0:
-        from pdb import set_trace; set_trace()
+        pass
     ###
 
     for i in range(start, x.shape[0], stride):
